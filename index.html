@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="StudentReport" href="StudentReport.css">
+</head>
+<style>
+    .Main {
+        margin:300px;
+        margin-top: 10px;
+        
+    }
+
+    .One {
+        text-align: center;
+
+        h1 {
+            color: darkblue;
+
+        }
+
+        p {
+            color: brown
+        }
+    }
+
+    .Two {
+        background-color: rgb(227, 241, 246);
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid rgb(128, 173, 190);
+    }
+
+    .Two h2 {
+        color: darkblue;
+        border-bottom: 1px solid darkblue;
+    }
+
+    .Three {
+        background-color: rgb(255, 248, 230);
+        padding: 20px;
+        border-radius: 10px;
+        border:1px solid rgb(233, 203, 126);
+
+        h2 {
+            color: red;
+        }
+
+    }
+
+    .Container2 {
+        h2 {
+            color: darkblue;
+            text-align: center
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+
+
+
+            td:nth-child(4) {
+                color: red;
+                height: 40px;
+
+            }
+
+            td:nth-child(3) {
+                color: darkblue;
+                font-weight: bolder;
+            }
+
+
+        }
+
+
+    }
+
+    table .Heading {
+        background-color: rgb(15, 15, 74);
+        color: white;
+        height: 50px;
+
+
+    }
+
+    .Head1 {
+        background-color: rgb(227, 241, 246);
+    }
+
+    #Head3 {
+        background-color: aliceblue
+    }
+
+    #Head5 {
+        background-color: aliceblue;
+    }
+
+    .Heading2 {
+
+        p {
+            text-align: center;
+
+        }
+
+    }
+
+    #Line {
+        border-top: 1px solid black;
+    }
+</style>
+
+<body>
+    <div class="Main">
+        <div class="Container1">
+            <div class="One">
+                <h1>Student Academic Report</h1>
+                <p>Academic Year 2026-2027</p>
+            </div>
+            <div class="Two">
+                <h2>Student Information</h2>
+                <p><b>Name:</b> Arun Kumar</p>
+                <p><b>Roll Number:</b> CS2026-015</p>
+                <p><b>Department:</b> Computer Science</p>
+                <p><b>Email:</b>arun@example.com </p>
+
+            </div><br>
+            <div class="Three">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Database Fundamentals</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="Container2">
+            <h2>Semester Marks</h2>
+            <table border="1">
+                <tr Class="Heading">
+                    <th>Subject</th<>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                </tr>
+                <tr class="Head1">
+                    <td>Web Development</td>
+                    <td>88</td>
+                    <td>A</td>
+                    <td>Pass</td>
+
+                </tr>
+                <tr id="Head2">
+                    <td>Python Programing</td>
+                    <td>92</td>
+                    <td>A+</td>
+                    <td>Pass</td>
+
+                </tr>
+                <tr id="Head3">
+                    <td>Database Mangement</td>
+                    <td>81</td>
+                    <td>A</td>
+                    <td>Pass</td>
+
+                </tr>
+                <tr id="Head4">
+                    <td>Computer Networks</td>
+                    <td>79</td>
+                    <td>B+</td>
+                    <td>Pass</td>
+
+                </tr>
+                <tr id="Head5">
+                    <td>Software Engineering</td>
+                    <td>85</td>
+                    <td>A</td>
+                    <td>Pass</td>
+
+                </tr>
+            </table><br>
+            <div id="Line">
+
+            </div>
+
+        </div>
+        <div Class="Heading2">
+            <p>&copy;2026 Student Academic Portal</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
